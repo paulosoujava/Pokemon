@@ -1,4 +1,4 @@
-package com.paulo.pokemon.uitl
+package com.paulo.pokemon.util
 
 object Constants {
     const val BASE_URL = "https://pokeapi.co/api/v2/"

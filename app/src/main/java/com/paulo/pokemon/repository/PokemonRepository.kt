@@ -3,7 +3,7 @@ package com.paulo.pokemon.repository
 import com.paulo.pokemon.data.remote.PokeApi
 import com.paulo.pokemon.data.remote.responses.Pokemon
 import com.paulo.pokemon.data.remote.responses.PokemonList
-import com.paulo.pokemon.uitl.Resource
+import com.paulo.pokemon.util.Resource
 import dagger.hilt.android.scopes.ActivityScoped
 import java.lang.Exception
 import javax.inject.Inject

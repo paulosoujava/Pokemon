@@ -188,6 +188,7 @@ fun PokedexEntry(
                 )
             )
             .clickable {
+                Timber.d("pokemon_detail_screen/${dominantColor.toArgb()}/${entry.pokemonName}")
                 navController.navigate(
                     "pokemon_detail_screen/${dominantColor.toArgb()}/${entry.pokemonName}"
                 )

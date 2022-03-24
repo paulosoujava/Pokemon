@@ -6,15 +6,14 @@ import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.capitalize
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.palette.graphics.Palette
 import com.paulo.pokemon.data.models.PokedexListEntry
 import com.paulo.pokemon.repository.PokemonRepository
-import com.paulo.pokemon.uitl.Constants
-import com.paulo.pokemon.uitl.Resource
+import com.paulo.pokemon.util.Constants
+import com.paulo.pokemon.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

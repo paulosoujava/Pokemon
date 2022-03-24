@@ -2,7 +2,7 @@ package com.paulo.pokemon.di
 
 import com.paulo.pokemon.data.remote.PokeApi
 import com.paulo.pokemon.repository.PokemonRepository
-import com.paulo.pokemon.uitl.Constants
+import com.paulo.pokemon.util.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
